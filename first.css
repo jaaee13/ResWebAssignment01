@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    background: powderblue;
+    display: inline-block;
+}
+
+.card{
+    height: 200px;
+    width: 15%;
+    background: plum;
+    display: inline-block;
+}
+
+/* MEDIA QUERIES */
+@media(max-width: 1000px){
+    .card{
+        background-color: lightpink;
+        width: 40%;
+    }
+}
+@media(max-width: 420px){
+    .card{
+        background-color: papayawhip;
+        width: 90%;
+    }
+}
